@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 #///////////////////////////
 # Cocos Creator 3D Project
 #///////////////////////////
@@ -22,3 +23,82 @@ node_modules/
 # WebStorm
 #//////////////////////////
 .idea/
+=======
+# Created by https://www.toptal.com/developers/gitignore/api/cocoscreator,vscode
+# Edit at https://www.toptal.com/developers/gitignore?templates=cocoscreator,vscode
+
+### CocosCreator ###
+#/////////////////////////////////////////////////////////////////////////////
+# Cocos Creator Projects
+
+build/
+library/
+temp/
+local/
+jsb-default/
+jsb-binary/
+jsb-link/
+web-desktop/
+web-mobile/
+runtime/
+jsb/
+export/
+
+# Logs and databases
+
+*.log
+*.sql
+*.sqlite
+
+# files for debugger
+
+*.sln
+*.csproj
+*.pidb
+*.unityproj
+*.suo
+
+# OS generated files
+
+.DS_Store
+ehthumbs.db
+Thumbs.db
+
+# exvim files
+
+*UnityVS.meta
+*.err
+*.err.meta
+*.exvim
+*.exvim.meta
+*.vimentry
+*.vimentry.meta
+*.vimproject
+*.vimproject.meta
+.vimfiles.*/
+.exvim.*/
+quick_gen_project_*_autogen.bat
+quick_gen_project_*_autogen.bat.meta
+quick_gen_project_*_autogen.sh
+quick_gen_project_*_autogen.sh.meta
+.exvim.app
+
+# webstorm files
+
+.idea/
+
+# VSCode files
+
+creator.d.ts
+.vscode/
+
+### vscode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# End of https://www.toptal.com/developers/gitignore/api/cocoscreator,vscode
+>>>>>>> 4b4cf8106359f52d190dfc5648c54dab9a05d085
